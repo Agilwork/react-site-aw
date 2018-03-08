@@ -29,11 +29,11 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-      </footer>
 
-      <div id="copyright">
-      &copy; Chatschool - 2017 - Todos os direitos reservados
-      </div>
+        <div id="copyright">
+          &copy; Agiwork - 2018 - Todos os direitos reservados
+        </div>
+      </footer>    
     )
   }
 }
