@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Nav extends Component {
   render () {
     return (
       <div className="col col-desktop-9 col-6">
         <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="quem-somos.html">Quem somos</a></li>
-            <li><a href="clientes.html" className="active">Clientes</a></li>
-            <li><a href="equipe.html">Equipe</a></li>
-            <li><a href="contato.html">Contato</a></li>
+          <ul>            
+            <Link to={'/'}>Home</Link> 
+            <Link to={'/how-it-work'}>Quem somos</Link> 
+            <Link to={'/clients'}>Clientes</Link> 
+            <Link to={'/time'}>Equipe</Link> 
+            <Link to={'/contact'}>Contato</Link> 
           </ul>
         </nav>
       </div>

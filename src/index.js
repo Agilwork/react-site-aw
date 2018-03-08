@@ -8,7 +8,7 @@ import Time from './components/pages/Time'
 import Contact from './components/pages/Contact'
 
 import registerServiceWorker from './registerServiceWorker'
-import {Router, Route, BrowserRouter} from 'react-router-dom'
+import {Route, BrowserRouter} from 'react-router-dom'
 
 const router = (
   <BrowserRouter >
