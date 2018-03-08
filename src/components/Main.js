@@ -1,5 +1,45 @@
 import React, { Component } from 'react';
 
+class HowItWork extends Component {
+  render () {
+    return (
+      <section id="how-it-work" className="section section-center">
+        <h2>Como funciona</h2>
+        <p className="subtitle">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
+
+        <div className="container">
+          <div className="row">
+            <div className="col col-desktop-4">
+              <div className="icon-container">
+                <i className="material-icons">schedule</i>
+              </div>
+              <h3>Chat em tempo real</h3>
+              <p>Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+              <p><a href="" className="btn">Saiba mais</a></p>
+            </div>
+            <div className="col col-desktop-4">
+              <div className="icon-container">
+                <i className="material-icons">work</i>
+              </div>
+              <h3>Grupo de trabalho</h3>
+              <p>Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+              <p><a href="" className="btn">Saiba mais</a></p>
+            </div>
+            <div className="col col-desktop-4">
+              <div className="icon-container">
+                <i className="material-icons">https</i>
+              </div>
+              <h3>Segurança</h3>
+              <p>Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+              <p><a href="" className="btn">Saiba mais</a></p>
+            </div>
+          </div>
+        </div>    
+      </section>
+    )
+  }
+}
+
 class Customer extends Component {
   render () {
     return (
@@ -71,40 +111,7 @@ class Main extends Component {
   render () {
     return (
       <main>
-        <section id="how-it-work" className="section section-center">
-          <h2>Como funciona</h2>
-          <p className="subtitle">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
-    
-          <div className="container">
-            <div className="row">
-              <div className="col col-desktop-4">
-                <div className="icon-container">
-                  <i className="material-icons">schedule</i>
-                </div>
-                <h3>Chat em tempo real</h3>
-                <p>Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
-                <p><a href="" className="btn">Saiba mais</a></p>
-              </div>
-              <div className="col col-desktop-4">
-                <div className="icon-container">
-                  <i className="material-icons">work</i>
-                </div>
-                <h3>Grupo de trabalho</h3>
-                <p>Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
-                <p><a href="" className="btn">Saiba mais</a></p>
-              </div>
-              <div className="col col-desktop-4">
-                <div className="icon-container">
-                  <i className="material-icons">https</i>
-                </div>
-                <h3>Segurança</h3>
-                <p>Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
-                <p><a href="" className="btn">Saiba mais</a></p>
-              </div>
-            </div>
-          </div>    
-        </section>
-
+        <HowItWork />
         <Customer />
         <Team />        
       </main>
