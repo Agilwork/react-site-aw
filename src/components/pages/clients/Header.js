@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Header extends Component {
   render () {
     return (
-      <header id="header" className="page-quem-somos">
+      <header id="header" className="page-clientes">
         <div className="container">
           <div className="row">
             <div className="col col-desktop-3 col-6">
@@ -15,8 +15,8 @@ class Header extends Component {
               <nav>
                 <ul>
                   <li><a href="/">Home</a></li>
-                  <li><a href="quem-somos.html" className="active">Quem somos</a></li>
-                  <li><a href="clientes.html">Clientes</a></li>
+                  <li><a href="quem-somos.html">Quem somos</a></li>
+                  <li><a href="clientes.html" className="active">Clientes</a></li>
                   <li><a href="equipe.html">Equipe</a></li>
                   <li><a href="contato.html">Contato</a></li>
                 </ul>
@@ -25,7 +25,7 @@ class Header extends Component {
           </div>
           <div className="row">
             <div className="col col-desktop-12 title">
-              <h1>Alta produtividade em tempo realtime</h1>
+              <h1>Alta produtividade em tempo real</h1>
             </div>
           </div>
         </div>
