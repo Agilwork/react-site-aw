@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Nav from '../../Nav'
+
 class Header extends Component {
   render () {
     return (
@@ -11,17 +13,7 @@ class Header extends Component {
                 <img src="images/logo.png" alt="Logo da Chatschool" />
               </a>
             </div>
-            <div className="col col-desktop-9 col-6">
-              <nav>
-                <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="quem-somos.html" className="active">Quem somos</a></li>
-                  <li><a href="clientes.html">Clientes</a></li>
-                  <li><a href="equipe.html">Equipe</a></li>
-                  <li><a href="contato.html">Contato</a></li>
-                </ul>
-              </nav>
-            </div>
+            <Nav />
           </div>
           <div className="row">
             <div className="col col-desktop-12 title">
