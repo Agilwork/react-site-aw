@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Main from './components/Main'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
@@ -30,11 +31,12 @@ class App extends Component {
               <h1>Alta produtividade em tempo real</h1>
               <a href="produto.html" className="btn">Começar agora</a>
             </div>
-          </div>
+          </div>          
         </div>
-      </header>  
-
+      </header> 
       
+      <Main />
+      <Footer />     
     );
   }
 }
