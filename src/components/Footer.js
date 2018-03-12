@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Footer extends Component {
   render () {
@@ -8,33 +9,40 @@ class Footer extends Component {
           <div className="row">
             <div className="col col-offset-desktop-1 col-desktop-3">
               <p><a href=""><img src="images/logo.png" alt="Logo da Chatschool" /></a></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla mollis erat, vitae pulvinar nisi laoreet eget. Curabitur at arcu mi. Cras vitae pharetra mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed id felis leo. Maecenas est est, vulputate at congue non, pulvinar eu arcu.</p>
+              <p>
+                Somos uma empresa de software e uma comunidade de pessoas apaixonadas, 
+                movidas por inúmeras causas. Pensamos de maneira disruptiva para entregar tecnologia que resolve os maiores desafios de nossos clientes.
+              </p>
             </div>
             <div className="col col-offset-desktop-1 col-desktop-2 col-2">
               <h3>Menu</h3>
               <nav>
                 <ul>
-                  <li><a href="/" className="active">Home</a></li>
-                  <li><a href="quem-somos.html">Quem somos</a></li>
-                  <li><a href="clientes.html">Clientes</a></li>
-                  <li><a href="equipe.html">Equipe</a></li>
-                  <li><a href="contato.html">Contato</a></li>
+                  <li><Link to={'/'}>Home</Link></li> 
+                  <li><Link to={'/how-it-work'}>Quem somos</Link></li>  
+                  <li><Link to={'/clients'}>Clientes</Link></li>  
+                  <li><Link to={'/time'}>Equipe</Link></li>  
+                  <li><Link to={'/contact'}>Contato</Link></li>  
                 </ul>
               </nav>
             </div>
             <div className="col col-desktop-3 social col-4">
-              <a href=""><img src="images/social-facebook.png" alt="" /></a>
-              <a href=""><img src="images/social-twitter.png" alt="" /></a>
-              <a href=""><img src="images/social-youtube.png" alt="" /></a>
+              <a href="https://github.com/Agilwork"><img src="images/footer/social-github.png" alt="" /></a>
+              <a href=""><img src="images/footer/social-facebook.png" alt="" /></a>
+              <a href=""><img src="images/footer/social-linkedin.png" alt="" /></a>
             </div>
           </div>
         </div>
 
         <div id="copyright">
-          &copy; Agiwork - 2018 - Todos os direitos reservados
+          &copy; Agiworks - {this.getCurrentYear()} - Todos os direitos reservados
         </div>
       </footer>    
     )
+  }
+
+  getCurrentYear () {    
+    return new Date().getFullYear()
   }
 }
 

@@ -8,7 +8,7 @@ class Client extends Component {
   render () {
     return (
       <div>
-        <Header />
+        <Header title="Alta produtividade em tempo real" />
         <Main />
         <Footer />
       </div>

@@ -7,17 +7,12 @@ class Header extends Component {
     return (    
       <header id="header" class="page-equipe">
         <div class="container">
-          <div class="row">
-            <div class="col col-desktop-3 col-6">
-              <a href="index.html">
-                <img src="images/logo.png" alt="Logo da Chatschool" />
-              </a>
-            </div>
+          <div class="row">           
             <Nav />
           </div>
           <div class="row">
             <div class="col col-desktop-12 title">
-              <h1>Alta produtividade em tempo real</h1>
+              <h1>PESSOAS APAIXONADAS COM O PROPÓSITO DE REVOLUCIONAR A CRIAÇÃO DE SOFTWARE</h1>
             </div>
           </div>
         </div>

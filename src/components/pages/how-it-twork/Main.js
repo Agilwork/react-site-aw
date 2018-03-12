@@ -12,7 +12,10 @@ class Main extends Component {
               </div>
               <div className="col col-desktop-8">
                 <h2>Quem somos</h2>
-                <p>Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor. Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor. Aenean sollicitudin, lorem quis bibendum. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor Lorem Ipsum.</p>
+                <p>Nós somos uma empresa de soluções em tecnologia da informação. 
+                  Fornecemos soluções em sistemas, fábrica de software, consultoria em gestão de projetos. 
+                  Estamos sempre em constante evolução, nos reinventando a cada dia, a cada ciclo de avaliação. 
+                  Trabalhamos com espírito de STARTUP, valorizando agilidade, inovação e empreendedorismo.</p>
               </div>
             </div>
           </div>
@@ -23,17 +26,19 @@ class Main extends Component {
               <div className="col col-desktop-4">
                 <img src="images/quem-somos/quem-somos_02.jpg" alt="" />
                 <h2>Missão</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, nostrud exercitation ullamco laboris nisi ut aliquip ex commodo.</p>
+                <p>Nossa missão é melhorar a humanidade através do software e ajudar a gerar a criação de um ecossistema 
+                   socialmente responsável e economicamente justo.</p>
               </div>
               <div className="col col-desktop-4">
                 <img src="images/quem-somos/quem-somos_03.jpg" alt="" />
                 <h2>Visão</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, nostrud exercitation ullamco laboris nisi ut aliquip ex commodo.</p>
+                <p>Sermos percebidos como essenciais por nossos clientes ao impulsionar seus negócios, 
+                   fornecendo soluções fantásticas em tecnologia da informação.</p>
               </div>
               <div className="col col-desktop-4">
                 <img src="images/quem-somos/quem-somos_04.jpg" alt="" />
                 <h2>Valores</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, nostrud exercitation ullamco laboris nisi ut aliquip ex commodo.</p>
+                <p>Sustentabilidade, Inovação, Confiança, Valorização de Pessoas e Relações Duradouras.</p>
               </div>
             </div>
           </div>
