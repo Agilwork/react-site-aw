@@ -8,7 +8,7 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col col-offset-desktop-1 col-desktop-3">
-              <p><a href=""><img src="images/logo.png" alt="Logo da Chatschool" /></a></p>
+              <p>Entre em contato: (47)991790789</p>
               <p>
                 Somos uma empresa de software e uma comunidade de pessoas apaixonadas, 
                 movidas por inúmeras causas. Pensamos de maneira disruptiva para entregar tecnologia que resolve os maiores desafios de nossos clientes.

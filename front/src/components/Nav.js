@@ -7,7 +7,6 @@ class Nav extends Component {
       <div>
         <div className="col col-desktop-3 col-6">          
           <Link to={'/'}>
-            <img src="images/logo.png" alt="Logo da Chatschool" />
           </Link>
         </div>
         
